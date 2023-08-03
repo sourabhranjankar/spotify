@@ -6,15 +6,187 @@
     <title>Spotify Clone</title>
     <link rel="stylesheet" href="style.css" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
   </head>
-  <body>
 
-    <div>Hello</div>
+  <body>
+    <main class="content-body">
+      <section class="left-nav bg-black text-white p-3">
+        <div class="logo py-2">
+          <img src="assets/Spotify logo.svg" alt="" />
+        </div>
+        <div class="side-nav-row-1 d-flex flex-column m-2">
+          <div><img class="p-2" src="assets/fi-ss-home.svg" alt="" />Home</div>
+          <div>
+            <img class="p-2" src="assets/fi-rs-search.svg" alt="" />Search
+          </div>
+          <div>
+            <img class="p-2" src="assets/library.png" alt="" />Your Library
+          </div>
+        </div>
+
+        <!-- END OF HOME SEARCH AND YOUR LIBRARY -->
+
+        <div class="nav-left-row-2 d-flex flex-column">
+          <div class="d-flex flex-row align-items-center mb-3">
+            <div class="small-logo">
+              <img src="assets/plus.svg" alt="" />
+            </div>
+            <div>
+              <p class="m-2 nav-content">Create Playlist</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row align-items-center mb-3">
+            <div class="row-2-col-2">
+              <img src="assets/love.svg" alt="" />
+            </div>
+            <div>
+              <p class="m-2 nav-content">Liked Songs</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row align-items-center mb-3">
+            <div>
+              <img class="small-logo bg-black" src="assets/wifi.svg" alt="" />
+            </div>
+            <div>
+              <p class="m-2 nav-content">Your Episodes</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- END OF CREATE LIKED EPISODES LEFT ASIDE BAR -->
+        <div class="ms-3 nav-left-col-3">
+          <p>FAV</p>
+          <p>Daily Mix1</p>
+          <p>Discovery Weekly</p>
+          <p>Malyalam</p>
+          <p>Dance/Electronix Mix</p>
+          <p>EDM Popular</p>
+        </div>
+        <!-- Download -->
+        <div class="d-flex flex-column ms-3 mt-5">
+          <div class="d-flex flex-row align-items-center mb-3">
+            <div class="small-logo">
+              <img src="assets/download.svg" class="bg-black" alt="" />
+            </div>
+            <div>
+              <p class="m-2 nav-content">Install App</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="right-nav">
+        <div
+          class="right-nav-head d-flex align-items-center justify-content-between"
+        >
+          <div class="arrow-nav d-flex">
+            <div><i class="fas fa-chevron-left"></i></div>
+            <div><i class="fas fa-chevron-right"></i></div>
+          </div>
+          <div class="account-nav d-flex justify-content-between">
+            <img src="assets/Ellipse 3.svg" alt="img-logo" />
+            <h4>Angel</h4>
+            <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        <!-- right Head End -->
+
+        <div class="main-head ps-4 mb-4">
+          <h2 class="main-head-title mb-4">Good Morning</h2>
+          <div class="card-box">
+            <div class="card-container">
+              <img src="assets/Group 1 (1).svg" alt="" />
+              <p class="card-text">Liked Songs</p>
+            </div>
+            <div class="card-container">
+              <img src="assets/Group 1 (1).svg" alt="" />
+              <p class="card-text">Liked Songs</p>
+            </div>
+            <div class="card-container">
+              <img src="assets/Group 1 (1).svg" alt="" />
+              <p class="card-text">Liked Songs</p>
+            </div>
+            <div class="card-container">
+              <img src="assets/Group 1 (1).svg" alt="" />
+              <p class="card-text">Liked Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="categories">
+          <div class="category-head">
+            <div>
+              
+              <h3 class="main-head-title ps-4">Shows you might like </h3>
+            </div>
+            <div>
+              
+              <span class="see-all">SEE ALL</span>
+            </div>
+          </div>
+          <div class="card-box-category">
+            <div class="card-container-category">
+              <div class="card-img">
+                <img src="assets/Rectangle 16 (1).png" alt="" />
+              </div>
+              <div class="card-content-cat ">
+                <h4 class="card-content-head px-3">Weekly Moticatio...</h4>
+                <p class="singer-name px-3">Ben Ina Scott</p>
+              </div>
+            </div>
+            <div class="card-container-category">
+              <div class="card-img">
+                <img src="assets/Rectangle 16 (1).png" alt="" />
+              </div>
+              <div class="card-content-cat ">
+                <h4 class="card-content-head px-3">Weekly Moticatio...</h4>
+                <p class="singer-name px-3">Ben Ina Scott</p>
+              </div>
+            </div>
+            <div class="card-container-category">
+              <div class="card-img">
+                <img src="assets/Rectangle 16 (1).png" alt="" />
+              </div>
+              <div class="card-content-cat ">
+                <h4 class="card-content-head px-3">Weekly Moticatio...</h4>
+                <p class="singer-name px-3">Ben Ina Scott</p>
+              </div>
+            </div>
+            <div class="card-container-category">
+              <div class="card-img">
+                <img src="assets/Rectangle 16 (1).png" alt="" />
+              </div>
+              <div class="card-content-cat ">
+                <h4 class="card-content-head px-3">Weekly Moticatio...</h4>
+                <p class="singer-name px-3">Ben Ina Scott</p>
+              </div>
+            </div>
+            <div class="card-container-category">
+              <div class="card-img">
+                <img src="assets/Rectangle 16 (1).png" alt="" />
+              </div>
+              <div class="card-content-cat ">
+                <h4 class="card-content-head px-3">Weekly Moticatio...</h4>
+                <p class="singer-name px-3">Ben Ina Scott</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
