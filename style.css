@@ -14,6 +14,17 @@
     display: none;
   }
 }
+.side-nav-row-1>div:hover{
+  background-color: #282828;
+  border-radius: 5px;
+}
+
+.nav-left-row-2>div:hover{
+  background-color: #282828;
+  border-radius: 5px;
+  padding-left: px;
+
+}
 
 
 .content-body {
@@ -63,6 +74,12 @@
   justify-content: center;
   align-items: center;
   margin: 5px;
+}
+
+.logo>img{
+  width: 202.5760955810547px;
+height: 60.525787353515625px;
+margin-bottom: 10px;
 }
 
 .account-nav {
@@ -116,6 +133,7 @@
   width: 30px;
   width: 30px;
   background-color: white;
+  padding: ;
 }
 
 .main-section {
@@ -125,15 +143,25 @@
 .nav-content {
   padding-left: 15px;
   text-align: left;
+  font-size: 19px;
 }
+
 .row-2-col-2 > img {
   height: 30px;
+}
+.left-nav-links{
+  margin-top: 10px;
+}
+.left-nav-links-para{
+  line-height: 15px;
+  padding-bottom: 2px;
 }
 
 .nav-left-row-2 {
   margin-left: 15px;
   margin-top: 20px;
 }
+
 
 .category {
   width: 84vw;
