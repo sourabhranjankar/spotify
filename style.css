@@ -10,12 +10,19 @@
 * {
   margin: 0;
   padding: 0;
+  ::-webkit-scrollbar{
+    display: none;
+  }
 }
+
 
 .content-body {
   display: flex;
   overflow: auto;
+  width: 100%;
+  position: relative;
 }
+
 
 .right-nav {
   color: white;
@@ -32,31 +39,11 @@
     #121212 85.45%,
     rgba(18, 18, 18, 0) 100%
   );
-
+padding-left: 15vw;
   flex: 5;
+  overflow-y: scroll;
 }
-/* 
-.right-nav-head{
-    display: flex;
-    width: 100px;
-    height: 40px;
-    justify-content: space-around;
-    
-    border: 2px solid white;
-    
-    
 
-
-} */
-/* .arrow-nav{
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    width: 100px;
-    height: 40px ;
-    margin-top:10px;
-}
-*/
 .arrow-nav > div {
   height: 40px;
   width: 40px;
@@ -194,4 +181,16 @@ letter-spacing: 0.04em;
 text-align: left;
 
     margin-right: 25px;
+}
+.sticky-player{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    background-color: #181818;
+
+}
+
+.left-nav{
+    position: fixed;
 }
