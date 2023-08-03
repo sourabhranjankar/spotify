@@ -25,7 +25,11 @@
 }
 
 .left-nav{
-  height: 100%;
+  
+ 
+  overflow-y: scroll;
+  background-color: black;
+
 }
 
 .right-nav {
