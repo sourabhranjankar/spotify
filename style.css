@@ -202,50 +202,6 @@ text-align: left;
 
 }
 
-
-
-.sticky-player{
-  display: flex;
-  color: white;
-  flex-direction: column;
-  
-  height: 15vh;
-  width: 100%;
-  
-}
-.player-img{
-  width: 30px;
-  height: 30px;
-}
-.green-footer{
-  width: 100%;
-  height: 30px;
- position: fixed;
- bottom: 0;
-  background-color: #1ED760;
-}
-
-.footer-col-1{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: 20%;
-
-}
-.footer-card-content{
-  padding-right: 10px;
-  ;
-}
-.card-title-para{
-  color: #B3B3B3;
-}
-.green-footer-heading{
-  text-align: right;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  padding-right: 25px;
-  font-size: 17px;
-  padding-top: 5px;
-  
+.left-nav{
+    position: fixed;
 }
