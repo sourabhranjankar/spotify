@@ -21,8 +21,12 @@
   overflow: auto;
   width: 100%;
   position: relative;
+  height: 85vh;
 }
 
+.left-nav{
+  height: 100%;
+}
 
 .right-nav {
   color: white;
@@ -39,9 +43,11 @@
     #121212 85.45%,
     rgba(18, 18, 18, 0) 100%
   );
-padding-left: 15vw;
+
   flex: 5;
   overflow-y: scroll;
+  width: 100%;
+  height: 100%;
 }
 
 .arrow-nav > div {
@@ -188,9 +194,40 @@ text-align: left;
     position: fixed;
     bottom: 0;
     background-color: #181818;
+    color: white;
 
 }
 
-.left-nav{
-    position: fixed;
+
+
+.sticky-player{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  
+  height: 15vh;
+  
+}
+.green-footer{
+  width: 100%;
+  height: 30px;
+ position: fixed;
+ bottom: 0;
+  background-color: #1ED760;
+}
+
+.footer-col-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.green-footer-heading{
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  
 }
