@@ -143,6 +143,9 @@
   height: 90vh;
 }
 
+.left-nav-img{
+  padding: 0;
+}
 .nav-content {
   padding-left: 15px;
   text-align: left;
@@ -286,6 +289,57 @@ p,h4,.card-heading{
   text-decoration: none;
   color: white;
 }
+
+
+
+
+/* RIGHT NAVIGATION CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries */
 

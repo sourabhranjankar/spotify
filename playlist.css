@@ -21,8 +21,8 @@
 }
 
 .nav-left-row-2 > div:hover {
- cursor: pointer;
-    background-color: #282828;
+  cursor: pointer;
+  background-color: #282828;
   border-radius: 5px;
 }
 
@@ -91,15 +91,8 @@
   flex-wrap: wrap;
 }
 .card-container {
-  width: 362px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  border-radius: 4px;
-  color: white;
-  margin: 5px;
+ 
 
-  background-color: #303030;
 }
 .card-text {
   padding-left: 25px;
@@ -123,7 +116,6 @@
   width: 30px;
   width: 30px;
   background-color: white;
-
 }
 
 .main-section {
@@ -211,13 +203,13 @@
 
   margin-right: 25px;
 }
-.fullscreen-like>img{
-    padding: 10px;
+.fullscreen-like > img {
+  padding: 10px;
 }
 
-.left-nav-img>img{
-   margin-top: 10rem;
-   padding-right: 15px;
+.left-nav-img > img {
+  margin-top: 10rem;
+  padding-right: 15px;
 }
 
 .player-container {
@@ -244,31 +236,29 @@ h4,
   margin-top: 10px;
   align-items: center;
   padding: 10px;
-
 }
-.footer-col-3-sound{
-    width: 150px;
+.footer-col-3-sound {
+  width: 150px;
 }
 .footer-card-content {
   padding-top: 10px;
   padding-right: 10px;
 }
-.footer-card-content>p{
-    font-size: 12px;
-    color: grey;
+.footer-card-content > p {
+  font-size: 12px;
+  color: grey;
 }
 
-.footer-card-content>h5{
-    margin-bottom: 0;
-font-size: 15px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0em;
-
+.footer-card-content > h5 {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
 }
-.home-anchor>a{
-    text-decoration: none;
-    color: white;
+.home-anchor > a {
+  text-decoration: none;
+  color: white;
 }
 
 .playercontrols {
@@ -281,6 +271,84 @@ letter-spacing: 0em;
   padding-bottom: 0;
   padding-top: 0;
 }
+
+.main-top-card {
+  display: flex;
+  align-items: center;
+  line-height: ;
+}
+
+.card-song-name {
+  font-family: Circular Std;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 114px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.card-content{
+  font-family: Circular Std;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: -0.02em;
+text-align: left;
+margin-bottom: 0;
+ color: #c7cbca;
+  
+
+}
+.playlist{
+  font-family: Circular Std;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.02em;
+text-align: left;
+padding-top: 15px;
+}
+
+
+
+.likes{
+  margin: 0;
+  color:#c6caca;
+  
+
+}
+.likes>span{
+  color: white;
+}
+
+.bigcard {
+  margin-top: 2%;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
