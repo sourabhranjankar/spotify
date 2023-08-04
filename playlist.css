@@ -48,13 +48,41 @@
 .right-nav {
   color: white;
   background: linear-gradient(180deg, #90aea7 0%, #000000 89.7%);
-
-  flex: 5;
   overflow-y: scroll;
-  width: 100%;
+  flex: 5;
   height: 100%;
 }
 
+.song-container{
+  overflow-y: scroll;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+.album-title{
+  padding-left: 70px;
+}
+.date-added{
+  padding-left: 22px;
+}
+
+
+.playlist-grid{
+  overflow-y: scroll;
+
+}
+.song-row{
+  margin-left: 20px;
+  width: 85vw;
+}
+.song-title>div{
+  padding: 5px;
+}
+.row-playlist{
+  width: 85vw;
+}
 .arrow-nav > div {
   height: 40px;
   width: 40px;
@@ -90,10 +118,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.card-container {
- 
 
-}
 .card-text {
   padding-left: 25px;
   font-size: 20px;
@@ -193,16 +218,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.see-all {
-  font-family: DM Sans;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 0.04em;
-  text-align: left;
 
-  margin-right: 25px;
-}
 .fullscreen-like > img {
   padding: 10px;
 }
@@ -275,7 +291,6 @@ h4,
 .main-top-card {
   display: flex;
   align-items: center;
-  line-height: ;
 }
 
 .card-song-name {
@@ -308,7 +323,13 @@ text-align: left;
 padding-top: 15px;
 }
 
-
+.playicon{
+  margin-left: 50px;
+  width: 20%;
+}
+.playicon>img{
+  padding-right: 30px;
+}
 
 .likes{
   margin: 0;
@@ -327,6 +348,9 @@ padding-top: 15px;
   height: 50%;
   align-items: center;
   justify-content: start;
+}
+.table-head{
+  background: linear-gradient(180 deg,black,red)100%;
 }
 
 
