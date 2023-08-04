@@ -17,10 +17,12 @@
 .side-nav-row-1 > div:hover {
   background-color: #282828;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .nav-left-row-2 > div:hover {
-  background-color: #282828;
+ cursor: pointer;
+    background-color: #282828;
   border-radius: 5px;
 }
 
@@ -263,6 +265,10 @@ font-weight: 400;
 line-height: 18px;
 letter-spacing: 0em;
 
+}
+.home-anchor>a{
+    text-decoration: none;
+    color: white;
 }
 
 .playercontrols {
