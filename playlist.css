@@ -55,10 +55,11 @@
 
 .song-container{
   overflow-y: scroll;
-  height: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   width: 100%;
+
   
 }
 .album-title{
@@ -74,8 +75,9 @@
 
 }
 .song-row{
-  margin-left: 20px;
-  width: 85vw;
+  /* margin-left: 20px; */
+  margin-inline: auto;
+  width: 90%;
 }
 .song-title>div{
   padding: 5px;
@@ -353,6 +355,11 @@ padding-top: 15px;
   background: linear-gradient(180 deg,black,red)100%;
 }
 
+.song-row:hover{
+  background-color: #696565;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 
 
