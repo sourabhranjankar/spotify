@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,700&display=swap");
+
+/* * 
+
+.main-section{
+    display: flex;
+    height: 90vh;
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+.side-nav-row-1 > div:hover {
+  background-color: #282828;
+  border-radius: 5px;
+}
+
+.nav-left-row-2 > div:hover {
+  background-color: #282828;
+  border-radius: 5px;
+}
+
+.left-nav-links>p:hover{
+  background-color: #282828;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.content-body {
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  position: relative;
+  height: 88vh;
+}
+
+.left-nav {
+  overflow-y: scroll;
+  background-color: black;
+}
+
+.right-nav {
+  color: white;
+  background: linear-gradient(
+    180deg,
+    #222222 0%,
+    #1f1f1f 11.64%,
+    #171717 25.66%,
+    #161616 32.94%,
+    #151515 35.98%,
+    #131313 44.89%,
+    #121212 55.22%,
+    #121212 75.34%,
+    #121212 85.45%,
+    rgba(18, 18, 18, 0) 100%
+  );
+
+  flex: 5;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+.arrow-nav > div {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.logo > img {
+  width: 202.5760955810547px;
+  height: 60.525787353515625px;
+  margin-bottom: 10px;
+}
+
+.account-nav {
+  width: 147px;
+  height: 41px;
+  background-color: black;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 33px;
+  padding: 3px;
+}
+.account-nav > i .logo > img {
+  width: 202.5760955810547px;
+  height: 60.525787353515625px;
+}
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-container {
+  width: 362px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  color: white;
+  margin: 5px;
+
+  background-color: #303030;
+}
+.card-text {
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+.main-head {
+  margin-top: 50px;
+  width: 82vw;
+  margin-inline: auto;
+}
+.main-head-title {
+  font-family: DM Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.small-logo {
+  width: 30px;
+  width: 30px;
+  background-color: white;
+  padding: ;
+}
+
+.main-section {
+  height: 90vh;
+}
+
+.nav-content {
+  padding-left: 15px;
+  text-align: left;
+  font-size: 19px;
+}
+
+.row-2-col-2 > img {
+  height: 30px;
+}
+.left-nav-links>p {
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+.left-nav-links-para {
+  line-height: 15px;
+  padding-bottom: 2px;
+}
+
+.nav-left-row-2 {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.category {
+  width: 84vw;
+  margin-inline: auto;
+}
+.card-container-category {
+  width: 251.29176330566406px;
+  height: 305.9043273925781px;
+  background-color: #181818;
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category-head {
+  padding-left: 20px;
+}
+.card-img {
+  padding-left: 15px;
+  margin-top: 30px;
+}
+
+.card-box-category {
+  width: 83vw;
+  margin-inline: auto;
+  padding-left: 20px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.card-content-head {
+  padding-top: 15px;
+  font-size: 21px;
+  text-align: left;
+  padding-left: 0;
+}
+
+.singer-name {
+  color: grey;
+}
+
+.category-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.see-all {
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-align: left;
+
+  margin-right: 25px;
+}
+
+.player-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  position: fixed;
+  bottom: 0;
+  background-color: #121212;
+  width: 100%;
+  height: 12vh;
+  margin: 0;
+  padding: 0;
+}
+p,h4,.card-heading{
+  color:white;
+  padding-left: 6px;
+}
+
+.footer-col-1 {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.footer-card-content {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.playercontrols {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.playercontrols > div {
+  padding: 7px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.green-footer-heading{
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 18px;
+  padding-right: 25px;
+  padding-top: 5px;
+}
+
+.green-footer{
+  width: 100%;
+  height: 3vh;
+ position: fixed;
+ bottom: 0;
+  background-color: #1ED760;
+  padding: 0;;
+}
+
+/* Media Queries */
+
+/* Media query for extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
+  /* Add specific styles for extra small devices here */
+  /* .content-body {
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 85vh;
+  } */
+.green-footer{
+  display: none;
+}
+
+.sticky-player{
+  position: fixed;
+  bottom: 0;
+}
+  .left-nav {
+    display: none;
+  }
+
+  .main-head-title {
+    text-align: left;
+  }
+
+  .see-all {
+    display: none;
+  }
+  .content-body {
+    height: 100%;
+  }
+  .category-head {
+    margin-inline: 15%;
+  }
+
+  .card-box-category {
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    height: 90vh;
+  }
+
+  .footer-col-1 {
+    display: none;
+  }
+
+  .playercontrols {
+    width: 100vw;
+  }
+
+  .player-container {
+    align-items: center;
+    height: 12vh;
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    align-items: center;
+  }
+
+  .footer-col-3 {
+    display: none;
+  }
+  .scroll-bar > p,
+  .scroll-bar > img {
+    display: none;
+  }
+  .green-footer {
+    width: 100%;
+  }
+  .green-footer > h4 {
+    text-align: left;
+    margin-inline: auto;
+  }
+  .right-nav {
+    height: 100vh;
+    width: 100%;
+  }
+}
+/* Media query for small devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* Add specific styles for small devices here */
+}
+
+/* Media query for medium devices (landscape tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* Add specific styles for medium devices here */
+}
+
+/* Media query for large devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* Add specific styles for large devices here */
+}
+
+/* Media query for extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+  /* Add specific styles for extra large devices here */
+}
