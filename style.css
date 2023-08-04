@@ -22,7 +22,12 @@
 .nav-left-row-2 > div:hover {
   background-color: #282828;
   border-radius: 5px;
-  padding-left: px;
+}
+
+.left-nav-links>p:hover{
+  background-color: #282828;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .content-body {
@@ -144,9 +149,13 @@
 .row-2-col-2 > img {
   height: 30px;
 }
-.left-nav-links {
-  margin-top: 10px;
+.left-nav-links>p {
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0;
+
 }
+
 .left-nav-links-para {
   line-height: 15px;
   padding-bottom: 2px;
@@ -268,6 +277,7 @@ p,h4,.card-heading{
  position: fixed;
  bottom: 0;
   background-color: #1ED760;
+  padding: 0;;
 }
 
 /* Media Queries */
