@@ -281,7 +281,14 @@ p,h4,.card-heading{
     position: relative;
     height: 85vh;
   } */
+.green-footer{
+  display: none;
+}
 
+.sticky-player{
+  position: fixed;
+  bottom: 0;
+}
   .left-nav {
     display: none;
   }
@@ -319,6 +326,10 @@ p,h4,.card-heading{
     align-items: center;
     height: 12vh;
     padding-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    align-items: center;
   }
 
   .footer-col-3 {
